@@ -1,0 +1,8 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/RENBex6969/KryptonReload/main/RLR.lua'))()
+local Window = Library.CreateLib("Name", "Midnight")
+local Tab = Window:NewTab("Cool Scripts By @SmileyDEVV")
+local Section = Tab:NewSection("Universal Scripts")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+Paste the script
+    print("Clicked")
+end)
